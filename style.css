@@ -1,1 +1,182 @@
 /* 命名規則　BEM */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(242, 242, 242);
+}
+
+.header__left {
+  padding: 0 40px;
+}
+
+.header__left, .header__left ul {
+  display: flex;
+  align-items: center;
+}
+
+.sec-title {
+  font-size: 2.3rem;
+  font-weight: lighter;
+  letter-spacing: 8px;
+}
+
+.header__left ul li {
+  margin: 20px;
+}
+
+.header__right {
+  padding: 30px 50px;
+  background-color: black;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+main{
+  background-color: rgb(242, 242, 242);
+}
+
+#news {
+  margin: 100px 50px;
+}
+
+.news__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.news__content__item {
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
+.news__content__item:first-child {
+  border-left: none;
+  padding-left: 0px;
+}
+
+.news__content__item__top {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.news__content__item__top img {
+  margin-left: 15px;
+}
+
+#about {
+  display: flex;
+}
+
+#about img {
+  width: 60%;
+  height: 400px;
+}
+
+.about__title {
+  width: 40%;
+  margin: 200px 60px 0px 60px;
+  box-sizing: border-box;
+}
+
+.about__title__content {
+  margin-bottom: 50px;
+}
+
+.sec-line {
+  margin-top: 20px;
+}
+
+.business__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.business__img__item {
+  width: 45%;
+  padding-bottom: 20px;
+}
+
+.business__img__item p {
+  display: inline-block;
+}
+
+.business__img__item img {
+  width: 100%;
+}
+
+.business__img__left {
+  display: flex;
+}
+
+.business__img__right {
+  display: flex;
+}
+
+#company {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  position: relative;
+}
+
+.company__title {
+  background-color: #fff;
+  width: 50%;
+  padding: 100px 70px;
+}
+
+.company__content {
+  display: flex;
+  margin-top: 40px;
+}
+
+.company__content__left  li{
+  padding: 0 10px 10px 0;
+}
+
+.company__content__right li {
+  padding: 0 10px 10px 10px;
+}
+
+.company__img {
+  height: 400px;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  right: 100px;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
