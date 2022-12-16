@@ -71,6 +71,10 @@ li {
   margin-right: 30px;
 }
 
+#header .inner li:last-child {
+  margin-right: 0;
+}
+
 .contact {
   width: 200px;
   height: 80px;
